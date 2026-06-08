@@ -93,6 +93,8 @@ const translations = {
     'project6-desc': "Application web complète prédisant la durée de séjour de patients victimes d'AVC ischémique. Backend Flask avec un modèle XGBoost, tableau de bord React/TypeScript, MongoDB pour les données patients, visualisations SHAP pour expliquer les prédictions, le tout conteneurisé avec Docker.",
     'project7-title': 'API de prédiction du risque cardiaque',
     'project7-desc': "API Flask + React prédisant le risque de crise cardiaque à partir de données de santé, avec un modèle Random Forest entraîné sur des données Kaggle, prétraitement (standardisation, encodage one-hot) et réponse JSON structurée affichée dans une interface React.",
+    'project8-title': 'Étude de sécurité Wi-Fi — Vulnérabilités & contre-mesures',
+    'project8-desc': "Étude approfondie des réseaux Wi-Fi : évolution des standards, vulnérabilités WEP/WPA, et démonstrations éthiques avec Kali Linux et un adaptateur Alfa Wi-Fi (attaque Evil Twin, génération de wordlists avec Crunch, cassage WPA2 par force brute). Recommandations : chiffrement fort, mises à jour régulières et sensibilisation des utilisateurs.",
     'project-link-linkedin': 'Voir le post LinkedIn →',
 
     'section-tech': 'Technologies',
@@ -197,6 +199,8 @@ const translations = {
     'project6-desc': 'Full-stack web app predicting Length of Stay for ischemic stroke patients. Flask backend with an XGBoost model, React/TypeScript dashboard, MongoDB for patient data, SHAP visualizations for model explainability, all containerized with Docker.',
     'project7-title': 'Heart Attack Risk Prediction API',
     'project7-desc': 'Flask + React API predicting heart attack risk from health data, powered by a Random Forest model trained on Kaggle data, with preprocessing (standardization, one-hot encoding) and a structured JSON response rendered in a React UI.',
+    'project8-title': 'Wi-Fi Security Research — Vulnerabilities & Countermeasures',
+    'project8-desc': 'In-depth study of Wi-Fi networks: protocol evolution and WEP/WPA vulnerabilities, with ethical demonstrations using Kali Linux and an Alfa Wi-Fi adapter (Evil Twin attack, wordlist generation with Crunch, WPA2 brute-force cracking). Recommends strong encryption, regular updates, and user awareness as core defenses.',
     'project-link-linkedin': 'View LinkedIn post →',
 
     'section-tech': 'Stack',
