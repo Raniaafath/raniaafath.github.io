@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(curl -s https://api.github.com/users/Raniaafath/repos)"
+    ]
+  }
+}
