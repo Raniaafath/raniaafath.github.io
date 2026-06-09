@@ -15,7 +15,7 @@ const translations = {
     'section-profile-label': 'Profil',
     'section-profile-title': 'Résumé rapide',
     'profile-card-summary': 'Profil',
-    'profile-summary': "Étudiante en télécommunications à TU Dresden, actuellement en recherche chez ScaDS.AI. Expérience en IT, développement logiciel et DevOps. Je recherche un poste Werkstudent ou mini-job à Dresde.",
+    'profile-summary': "Étudiante en génie télécom à l'ENIT, actuellement en recherche chez ScaDS.AI / TU Dresden. Expérience en IT, développement logiciel et DevOps. Disponible pour un Werkstudent ou mini-job à Dresde ; en recherche d'un stage PFE à partir de février 2027.",
     'profile-card-contact': 'Coordonnées',
     'label-address': 'Adresse',
     'label-phone': 'Téléphone',
@@ -121,7 +121,7 @@ const translations = {
     'section-profile-label': 'Profile',
     'section-profile-title': 'Quick summary',
     'profile-card-summary': 'Profile',
-    'profile-summary': 'Telecommunications engineering student enrolled at TU Dresden, currently researching at ScaDS.AI. Experienced in IT, software development, and DevOps. Looking for a Werkstudent or mini-job position in Dresden.',
+    'profile-summary': 'Telecom engineering student at ENIT, currently researching at ScaDS.AI / TU Dresden. Experienced in IT, software development, and DevOps. Available for a Werkstudent or mini-job in Dresden; seeking a PFE internship from February 2027.',
     'profile-card-contact': 'Contact',
     'label-address': 'Address',
     'label-phone': 'Phone',
@@ -231,7 +231,7 @@ function setLanguage(lang) {
 }
 
 langToggle.addEventListener('click', () => {
-  const nextLang = document.documentElement.lang === 'fr' ? 'en' : 'fr';
+  const nextLang = getSavedLang() === 'fr' ? 'en' : 'fr';
   setLanguage(nextLang);
 });
 
