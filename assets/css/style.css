@@ -302,6 +302,20 @@ h2 {
   transition: gap 0.2s;
 }
 .project-link:hover { gap: 10px; }
+.project-preview {
+  display: block;
+  margin: -1.75rem -1.75rem 1.25rem;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: var(--bg3);
+}
+.project-preview img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.35s ease;
+  display: block;
+}
+.project-card:hover .project-preview img { transform: scale(1.04); }
 
 /* SKILLS */
 .skills-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
