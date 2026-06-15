@@ -2,6 +2,7 @@ const translations = {
   fr: {
     'nav-experience': 'Parcours',
     'nav-projects': 'Projets',
+    'nav-awards': 'Prix & Certifs',
     'nav-skills': 'Compétences',
     'nav-resume': 'CV',
     'nav-contact': 'Contact',
@@ -11,6 +12,9 @@ const translations = {
     'stat-internships': 'stages & rôles de recherche',
     'stat-production': 'projets en production',
     'stat-cloud': 'plateformes cloud',
+    'qstat-years': "Ans d'exp.",
+    'qstat-entities': 'Entités KG',
+    'qstat-languages': 'Langues',
 
     'section-profile-label': 'Profil',
     'section-profile-title': 'Résumé rapide',
@@ -100,14 +104,27 @@ const translations = {
     'section-tech': 'Technologies',
     'section-skills': 'Compétences techniques',
 
+    'section-awards-label': 'Distinctions',
+    'section-awards-title': 'Prix & certifications',
+    'award1-title': 'DAAD KOSPIE Scholar 2026',
+    'award1-desc': "Bourse compétitive — 1 des ~30 sélectionné(e)s parmi plus de 1000 candidatures d'ingénieurs tunisiens.",
+    'award2-title': "Médaille d'argent nationale — Street Workout",
+    'award2-desc': '1er championnat national féminin · Tunisie 2019',
+    'award3-title': 'Lauréate INJAZ — Startup Oregammi',
+    'award3-desc': "1ère place au concours d'entrepreneuriat · ENIT 2024",
+    'award4-title': 'Cisco Networking Academy',
+    'award4-desc': 'Certification niveau CCNA',
+
     'contact-availability': 'Ouverte aux opportunités PFE — Fév 2027',
     'contact-title': 'Construisons quelque chose ensemble',
-    'contact-sub': "Ingénieure télécom diplômée en juin 2027. À la recherche d'un stage PFE en DevOps, infrastructure cloud ou MLOps — idéalement en France.",
-    'contact-button': '→ Contactez-moi'
+    'contact-sub': "Disponible pour un PFE 6 mois (à partir de sept. 2026) en France ou en Europe — IA générative, MLOps, DevOps ou Data Engineering. Basée à Dresden, mobilité totale. Visa / permis de travail : non requis (Allemagne).",
+    'contact-button': '→ Contactez-moi',
+    'footer-top': '↑ Retour en haut'
   },
   en: {
     'nav-experience': 'Journey',
     'nav-projects': 'Projects',
+    'nav-awards': 'Awards & Certs',
     'nav-skills': 'Skills',
     'nav-resume': 'Resume',
     'nav-contact': 'Contact',
@@ -117,6 +134,9 @@ const translations = {
     'stat-internships': 'internships & research roles',
     'stat-production': 'production projects',
     'stat-cloud': 'cloud platforms',
+    'qstat-years': 'Years exp',
+    'qstat-entities': 'KG Entities',
+    'qstat-languages': 'Languages',
 
     'section-profile-label': 'Profile',
     'section-profile-title': 'Quick summary',
@@ -206,10 +226,22 @@ const translations = {
     'section-tech': 'Stack',
     'section-skills': 'Technical skills',
 
+    'section-awards-label': 'Recognition',
+    'section-awards-title': 'Awards & certifications',
+    'award1-title': 'DAAD KOSPIE Scholar 2026',
+    'award1-desc': 'Competitive scholarship — 1 of ~30 selected from 1000+ Tunisian engineering applicants.',
+    'award2-title': 'National Silver Medal — Street Workout',
+    'award2-desc': "1st National Girls' Championship · Tunisia 2019",
+    'award3-title': 'INJAZ Winner — Oregammi Startup',
+    'award3-desc': '1st place entrepreneurship competition · ENIT 2024',
+    'award4-title': 'Cisco Networking Academy',
+    'award4-desc': 'CCNA-level certification',
+
     'contact-availability': 'Open to PFE opportunities — Feb 2027',
     'contact-title': 'Let’s build something together',
-    'contact-sub': 'Telecom engineer graduating June 2027. Looking for a PFE internship in DevOps, Cloud infrastructure, or MLOps — ideally in France.',
-    'contact-button': '→ Get in touch'
+    'contact-sub': 'Available for a 6-month final year internship (from Sept. 2026) in France or Europe — Generative AI, MLOps, DevOps or Data Engineering. Based in Dresden, fully mobile. Work authorization: not required (Germany).',
+    'contact-button': '→ Get in touch',
+    'footer-top': '↑ Back to top'
   }
 };
 
