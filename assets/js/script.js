@@ -10,7 +10,7 @@ const translations = {
     'hero-desc': "Élève ingénieure ICT, option Cloud et IoT, à l'ENIT. Ancienne boursière DAAD KOSPIE à TU Dresden / ScaDS.AI. J'automatise des infrastructures cloud avec Kubernetes, Terraform, CI/CD et GitOps.",
     'btn-view-projects': 'Voir les projets',
     'stat-internships': "expériences pro & recherche",
-    'stat-production': 'projets en production',
+    'stat-production': "projets présentés",
     'stat-cloud': 'plateformes cloud',
     'qstat-languages': 'Langues',
 
@@ -27,8 +27,6 @@ const translations = {
     'label-location': 'Localisation',
     'location-text': "Tunis, Tunisie",
     'profile-card-personal': 'Détails',
-    'label-born': 'Né(e)',
-    'label-nationality': 'Nationalité',
     'label-languages': 'Langues',
 
     'section-journey-label': 'Parcours',
@@ -70,13 +68,9 @@ const translations = {
 
     'tl7-role': 'IPEIM, Monastir',
     'tl7-place': 'Classes préparatoires · Maths-Physique',
-    'tl7-desc': "Classement national 445/1600 au concours national d'entrée aux écoles d'ingénieurs.",
+    'tl7-desc': "Institut préparatoire aux études d'ingénieur de Monastir.",
     'tl7-date': '2021 – 2023',
 
-    'tl8-role': 'Lycée Pilote, Monastir',
-    'tl8-place': 'Baccalauréat · Section Mathématiques',
-    'tl8-desc': 'Obtenu avec la mention Très Bien.',
-    'tl8-date': '2021',
 
     'section-work': 'Travaux',
     'section-projects': 'Projets sélectionnés',
@@ -90,13 +84,11 @@ const translations = {
     'project4-title': 'Stack DevOps auto-hébergée sur VPS',
     'project4-desc': "Stack auto-hébergée complète sur un VPS OVH avec Docker : Caddy en reverse proxy avec HTTPS automatique (Let's Encrypt), serveur mail Mailu (SPF/DKIM/DMARC), Vaultwarden, Nextcloud, Taiga, wiki interne et ERP/CRM Dolibarr déployé en blue/green via GitHub Actions.",
     'project5-title': "Plateforme MLOps — Durée de séjour hospitalier",
-    'project5-desc': "Pipeline ETL Spark, API Flask et modèle XGBoost conteneurisé, avec comparaison de modèles et visualisation React. MongoDB, réentraînement et CI/CD via GitHub Actions. Projet d'un programme d'excellence présenté au laboratoire LR-RISC de l'ENIT.",
-    'project6-title': 'Patient Risk Analyzer — Prédiction de durée de séjour',
-    'project6-desc': "Application web complète prédisant la durée de séjour de patients victimes d'AVC ischémique. Backend Flask avec un modèle XGBoost, tableau de bord React/TypeScript, MongoDB pour les données patients, visualisations SHAP pour expliquer les prédictions, le tout conteneurisé avec Docker.",
-    'project7-title': 'API de prédiction du risque cardiaque',
-    'project7-desc': "API Flask + React prédisant le risque de crise cardiaque à partir de données de santé, avec un modèle Random Forest entraîné sur des données Kaggle, prétraitement (standardisation, encodage one-hot) et réponse JSON structurée affichée dans une interface React.",
+    'project5-desc': "Application full-stack prédisant la durée de séjour de patients victimes d'AVC ischémique. Pipeline ETL Spark, API Flask et modèle XGBoost conteneurisé, explications SHAP, MongoDB et tableau de bord React/TypeScript. Réentraînement et CI/CD via GitHub Actions. Projet présenté au laboratoire LR-RISC de l'ENIT.",
+    'project7-title': "API de prédiction du risque cardiaque",
+    'project7-desc': "API Flask prédisant le risque de maladie cardiaque à partir de paramètres de santé, avec un modèle Random Forest et une normalisation scikit-learn. Interface React/TypeScript pour saisir les données et afficher le résultat.",
     'project8-title': "Sécurité des réseaux Wi-Fi — Audit & contre-mesures",
-    'project8-desc': "Audit sous Kali Linux : Rogue AP / Evil Twin, analyse WPA2/WPA3 avec Aircrack-ng, génération de wordlists avec Crunch, et proposition de contre-mesures (chiffrement fort, mises à jour, sensibilisation).",
+    'project8-desc': "Audit sous Kali Linux : Rogue AP / Evil Twin, analyse WPA2/WPA3 avec Aircrack-ng, génération de wordlists avec Crunch pour une attaque par force brute sur WPA2, et proposition de contre-mesures.",
     'project-link-linkedin': 'Voir le post LinkedIn →',
 
     'section-tech': 'Technologies',
@@ -106,10 +98,6 @@ const translations = {
     'section-awards-title': 'Prix & certifications',
     'award1-title': 'DAAD KOSPIE Scholar 2026',
     'award1-desc': "Séjour de recherche à TU Dresden · 15 lauréats sélectionnés parmi plus de 300 candidats.",
-    'award2-title': "Médaille d'argent nationale — Street Workout",
-    'award2-desc': '1er championnat national féminin · Tunisie 2019',
-    'award3-title': 'Lauréate INJAZ — Startup Oregammi',
-    'award3-desc': "1ère place au concours d'entrepreneuriat · ENIT 2024",
     'award4-title': "Cisco — Introduction to Networking",
     'award4-desc': "Cisco Networking Academy",
 
@@ -127,6 +115,8 @@ const translations = {
     'skills-g2': "CI/CD & Observabilité",
     'skills-g3': "Développement & Data",
     'skills-g4': "Réseaux & Sécurité",
+    'label-availability': "Disponibilité",
+    'availability-text': "PFE de 6 mois · à partir de février 2027",
     'footer-top': '↑ Retour en haut'
   },
   en: {
@@ -140,7 +130,7 @@ const translations = {
     'hero-desc': "ICT engineering student (Cloud & IoT track) at ENIT. Former DAAD KOSPIE scholar at TU Dresden / ScaDS.AI. I automate cloud infrastructure with Kubernetes, Terraform, CI/CD and GitOps.",
     'btn-view-projects': 'View projects',
     'stat-internships': "work & research roles",
-    'stat-production': 'production projects',
+    'stat-production': "featured projects",
     'stat-cloud': 'cloud platforms',
     'qstat-languages': 'Languages',
 
@@ -157,8 +147,6 @@ const translations = {
     'label-location': 'Location',
     'location-text': "Tunis, Tunisia",
     'profile-card-personal': 'Details',
-    'label-born': 'Born',
-    'label-nationality': 'Nationality',
     'label-languages': 'Languages',
 
     'section-journey-label': 'Journey',
@@ -200,13 +188,9 @@ const translations = {
 
     'tl7-role': 'IPEIM, Monastir',
     'tl7-place': 'Preparatory classes · Maths-Physics',
-    'tl7-desc': 'Ranked 445/1600 nationally in the engineering school entrance exam.',
+    'tl7-desc': "Preparatory institute for engineering studies of Monastir.",
     'tl7-date': '2021 – 2023',
 
-    'tl8-role': 'Lycée Pilote, Monastir',
-    'tl8-place': 'Baccalaureate · Mathematics track',
-    'tl8-desc': 'Graduated with highest honors (Très Bien).',
-    'tl8-date': '2021',
 
     'section-work': 'Work',
     'section-projects': 'Selected projects',
@@ -220,13 +204,11 @@ const translations = {
     'project4-title': 'Self-Hosted DevOps Stack on a VPS',
     'project4-desc': "Full self-hosted stack on an OVH VPS using Docker: Caddy reverse proxy with automatic HTTPS (Let's Encrypt), Mailu mail server (SPF/DKIM/DMARC), Vaultwarden, Nextcloud, Taiga, an internal wiki, and a Dolibarr ERP/CRM deployed blue/green via GitHub Actions.",
     'project5-title': "MLOps Platform — Hospital Length of Stay",
-    'project5-desc': "Spark ETL pipeline, Flask API and containerised XGBoost model, with model comparison and React visualisation. MongoDB, retraining and CI/CD via GitHub Actions. Excellence-programme project presented at ENIT's LR-RISC lab.",
-    'project6-title': 'Patient Risk Analyzer — Length-of-Stay Prediction',
-    'project6-desc': 'Full-stack web app predicting Length of Stay for ischemic stroke patients. Flask backend with an XGBoost model, React/TypeScript dashboard, MongoDB for patient data, SHAP visualizations for model explainability, all containerized with Docker.',
-    'project7-title': 'Heart Attack Risk Prediction API',
-    'project7-desc': 'Flask + React API predicting heart attack risk from health data, powered by a Random Forest model trained on Kaggle data, with preprocessing (standardization, one-hot encoding) and a structured JSON response rendered in a React UI.',
+    'project5-desc': "Full-stack app predicting length of stay for ischemic stroke patients. Spark ETL pipeline, Flask API and containerised XGBoost model, SHAP explanations, MongoDB and a React/TypeScript dashboard. Retraining and CI/CD via GitHub Actions. Presented at ENIT's LR-RISC lab.",
+    'project7-title': "Heart Disease Risk Prediction API",
+    'project7-desc': "Flask API predicting heart disease risk from health parameters, using a Random Forest model with scikit-learn scaling. React/TypeScript UI to enter data and display the result.",
     'project8-title': "Wi-Fi Network Security — Audit & Countermeasures",
-    'project8-desc': "Kali Linux audit: Rogue AP / Evil Twin, WPA2/WPA3 analysis with Aircrack-ng, wordlist generation with Crunch, and proposed countermeasures (strong encryption, updates, user awareness).",
+    'project8-desc': "Kali Linux audit: Rogue AP / Evil Twin, WPA2/WPA3 analysis with Aircrack-ng, Crunch wordlists for a WPA2 brute-force attack, and proposed countermeasures.",
     'project-link-linkedin': 'View LinkedIn post →',
 
     'section-tech': 'Stack',
@@ -236,10 +218,6 @@ const translations = {
     'section-awards-title': 'Awards & certifications',
     'award1-title': 'DAAD KOSPIE Scholar 2026',
     'award1-desc': "Research stay at TU Dresden · 15 scholars selected from 300+ applicants.",
-    'award2-title': 'National Silver Medal — Street Workout',
-    'award2-desc': "1st National Girls' Championship · Tunisia 2019",
-    'award3-title': 'INJAZ Winner — Oregammi Startup',
-    'award3-desc': '1st place entrepreneurship competition · ENIT 2024',
     'award4-title': "Cisco — Introduction to Networking",
     'award4-desc': "Cisco Networking Academy",
 
@@ -257,6 +235,8 @@ const translations = {
     'skills-g2': "CI/CD & Observability",
     'skills-g3': "Development & Data",
     'skills-g4': "Networking & Security",
+    'label-availability': "Availability",
+    'availability-text': "6-month final-year internship · from February 2027",
     'footer-top': '↑ Back to top'
   }
 };
@@ -296,3 +276,11 @@ const revealObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
 
 document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+
+// Whole project card opens its main link (LinkedIn post or GitHub repo).
+document.querySelectorAll('.project-card[data-href]').forEach((card) => {
+  card.addEventListener('click', (event) => {
+    if (event.target.closest('a')) return;
+    window.open(card.dataset.href, '_blank', 'noopener');
+  });
+});
