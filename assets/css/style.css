@@ -444,3 +444,4 @@ footer p { font-size: 0.78rem; color: var(--muted); }
 .reveal-stagger > *:nth-child(6) { animation-delay: 0.55s; }
 .reveal-stagger > *:nth-child(7) { animation-delay: 0.65s; }
 .reveal-stagger > *:nth-child(8) { animation-delay: 0.75s; }
+.skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
